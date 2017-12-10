@@ -36,6 +36,6 @@ if __name__ == '__main__':
         message = cios.getSensorData()
         
         if message != "error":
-            sp.setSensorData(message)
+            #sp.setSensorData(message)
 
         cios.sendMessage(message)
