@@ -15,7 +15,7 @@ from dotenv import load_dotenv
 
 if __name__ == '__main__':
     url = "wss://api.optim.cloud/v1/messaging"
-    channel = ""
+    channel = "LcOZM706G0z4E7Eo1NWvxLsJb8mNpHvCKzOloYZVGS8OLgftST4xTCoMrnQ2ZLD1"
 
     dotenv_path = join(dirname(__file__), '.env')
     load_dotenv(dotenv_path)
@@ -37,5 +37,6 @@ if __name__ == '__main__':
         
         if message != "error":
             #sp.setSensorData(message)
+            pass
 
         cios.sendMessage(message)
