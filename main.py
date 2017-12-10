@@ -11,6 +11,7 @@ import sys
 import os
 import time
 from os.path import join, dirname
+from dotenv import load_dotenv
 
 if __name__ == '__main__':
     url = "wss://api.optim.cloud/v1/messaging"
