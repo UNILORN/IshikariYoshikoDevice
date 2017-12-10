@@ -1,0 +1,5 @@
+init:
+	sudo apt -y install sense-hat
+	pip install websocket-client
+	pip install python-dotenv
+	cp .env.example .env
