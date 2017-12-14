@@ -1,9 +1,4 @@
 #-*- coding:utf-8 -*-
-#
-# Copyright (c) OPTiM Corporation 2017. All rights reserved.
-# Permission to use, copy, modify and redistribute are strongly controlled
-# under the rights of OPTiM Corporation.
-#
 
 from websocket import create_connection
 import sys
